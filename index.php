@@ -18,7 +18,20 @@
 	<div id="pageContainer">
 		
 		<div id="mastHeadContainer">
-			<button class="navShowHide">Click me</button>
+			<button class="navShowHide">
+				<img src="assets/images/icons/menu.png">
+			</button>
+
+			<a class="logoContainer" href="index.php">
+				<img src="assets/images/icons/icons8-youtube-100.png" title="logo" alt="Site logo">
+			</a>
+
+			<div class="searchBarContainer">
+				<form action="search.php" method="GET">
+					<input type="text" class="searchBar" name="term" placeholder="Search"></input>
+				</form>
+			</div>
+
 		</div>
 
 		<div id="sideNavContainer" style="display:none;">
